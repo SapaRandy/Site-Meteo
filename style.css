@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+body {
+	font-family:'Lato';
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: url('img/fond.jpg');
+	background-repeat: no-repeat;
+}
+
+/*header*/
+
+h1{
+    padding-left: 180px;
+    color: white;
+    text-shadow:3px 3px 3px black;
+    line-height: 30px;
+}
+
+header {
+	position: absolute;
+	background: #0277BD;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 50px;
+	overflow: hidden;
+	font-size: 9px;
+	border-bottom: solid 3px white;
+}
+
+.menu-right {
+	display: flex;
+	float: right;
+	padding-top: 0.2%;
+	padding-right: 100px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white
+}
+
+.stats {
+	float: left;
+	padding-right: 30px;
+	line-height: 49px;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all 0.3s ease-in-out;
+}
+
+.stats:hover {
+	color: white;
+	font-size: 22px;
+}
+
+.logo{
+	padding-left: 80px;
+    display:inline-block;
+    float:left;
+}
+
+/*body*/
+.map {
+	position: absolute;
+	top: 20%;
+	left: 12%;
+	width: 470px;
+	padding: 1%;
+}
+
+.map-img path {
+	fill:  #3F51B5;
+	stroke: white;
+	stroke-width: 1.5px;
+	cursor: pointer;
+}
+
+.map-img path:hover {
+	fill: #03A9F4;
+	stroke: white;
+	stroke-width: 1.5px;
+	transition: fill 0.2s;
+}
+
+.box-cookies {
+	font-size: 15pt;
+	position: absolute;
+	top: 40%;
+	left: 54%;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	padding: 1%;
+	width: 525px;
+	height: 150px;
+	padding-left: 30px;
+	color: white
+}
+
+.DateHeure {
+	padding-left: 17px;
+}
+
+.cookies {
+	padding : 3%;
+	color: white
+}
+
+.cookieslink {
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease-in-out;
+}
+
+.cookieslink:hover {
+	color: lightgrey;
+	padding-left: 15px;
+	border-bottom: solid 1px lightgrey;
+}
