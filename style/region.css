@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
+
+body {
+	font-family:'Lato';
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: url('../img/fond.jpg');
+	background-repeat: no-repeat;
+}
+
+
+header {
+	position: absolute;
+	background: #0277BD;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 50px;
+	overflow: hidden;
+	font-size: 9px;
+	border-bottom: solid 3px white;
+}
+
+.m-logo {
+    float: left;
+}
+
+.m-right {
+	float: right;
+	padding-top: 0.7%;
+	padding-right: 100px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+}
+
+.logo{
+	padding-top: 0.3%;
+	padding-left: 80px;
+    display:inline-block;
+    float:left;
+}
+
+.city-weather {
+	padding-right: 5px;
+
+}
+
+h1{
+    padding-left: 180px;
+    color: white;
+    text-shadow:3px 3px 3px black;
+    line-height: 30px;
+}
+
+#logoindex {
+	text-decoration: none;
+}
+
+
+.nomregion {
+	font-size: 32px;
+	color: white;
+}
+
+.box {
+	font-size: 15pt;
+	position: absolute;
+	top: 35%;
+	left: 54%;
+	padding: 1%;
+	width: 525px;
+	padding-left: 30px;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	color: white;
+}
+
+.DateHeure {
+	padding-left: 70px;
+}
+
+
+.map2 {
+	position: absolute;
+	top: 10%;
+	left: 12%;
+	width: 470px;
+	padding: 1%;
+}
+
+.map2-img path {
+	fill:  #3F51B5;
+	stroke: white;
+	stroke-width: 1.5px;
+	cursor: pointer;
+}
+
+.map2-img path:hover {
+	fill: #03A9F4;
+	stroke: white;
+	stroke-width: 1.5px;
+	transition: fill 0.2s;
+}
+
+.map {
+	position: absolute;
+	top: 18%;
+	left: 12%;
+	background: #607D8B;
+	width: 470px;
+	padding: 1%;
+}
+
+.map-img path {
+	fill:  lightgrey;
+	stroke: #607D8B;
+	stroke-width: 1.5px;
+	cursor: pointer;
+}
+
+.map-img path:hover {
+	fill: #03A9F4;
+	stroke: #607D8B;
+	stroke-width: 1.5px;
+	transition: fill 0.2s;
+}
+
+.weather-icon {
+    vertical-align: middle;
+    margin-right: 20px;
+}
